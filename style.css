@@ -1,0 +1,28 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: grid;
+    justify-content: space-evenly;
+}
+
+.circle{
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+    justify-self: center;
+}
+
+
+#info{
+    border: 2px solid black;
+    width: 270px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
